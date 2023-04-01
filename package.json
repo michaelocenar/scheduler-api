@@ -28,5 +28,7 @@
     "setupFilesAfterEnv": [
       "<rootDir>/src/setupTests.js"
     ]
-  }
+  },
+  "proxy": "http://localhost:8001",
+  "test:server": "NODE_ENV=test npm start"
 }
